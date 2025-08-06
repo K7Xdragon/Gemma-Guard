@@ -1,0 +1,79 @@
+# 🔧 Python build artifacts
+__pycache__/
+*.py[cod]
+*.so
+
+# 🔐 Environment and local settings
+.env
+*.env
+*.env.*
+
+# 🚫 Private directories (protect entire private/ directory)
+# NOTE: For competition submission, consider creating a public branch with simplified implementations
+private/
+secrets/
+config_local.py
+
+# 🏆 Internal strategy documents (not for public/competition)
+COMPETITION_STRATEGY.md
+
+# ✅ Competition files (allowed for transparency)
+!competition_public/
+
+# 📥 Local outputs and dynamic logs
+outputs/
+logs/
+*.log
+temp/
+tmp/
+
+# 📊 Dynamic data files (protect user privacy - allow data/ directory structure)
+data/cache/
+data/session_*.json
+data/inference_log.json     # Contains user analysis logs and personal data
+data/signal_log.json        # Contains biometric data and health information  
+data/user_profile.json      # Contains personal user information and demographics
+data/test.json              # Development test data (could contain personal info)
+!data/README.md             # Keep folder documentation
+!data/.gitkeep              # Keep folder structure
+
+# 🧪 Notebooks and testing artifacts
+*.ipynb
+.ipynb_checkpoints/
+experiments/
+sandbox/
+
+# 📦 Package dependencies
+*.egg-info/
+dist/
+build/
+node_modules/
+
+# 📜 OS-specific and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.bak
+
+# 🚀 Ollama cache or model artifacts (if any locally stored)
+ollama_cache/
+*.ollama
+
+# 🎯 Streamlit cache
+.streamlit/
+
+# 🔐 Additional security measures
+*.key
+*.pem
+*.p12
+*.pfx
+api_keys.json
+credentials.json
+tokens.json
+
+# 🚀 Virtual environment (if using venv)
+venv/
+env/
+.venv/

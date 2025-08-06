@@ -1,0 +1,26 @@
+{
+  "id": "user001",
+  "name": "Syira",
+  "dob": "1997-06-12",
+  "location": {
+    "city": "Grisek",
+    "state": "Johor",
+    "country": "Malaysia"
+  },
+  "demographics": {
+    "gender": "female",
+    "status": "single",
+    "occupation": "student"
+  },
+  "trait_profile": {
+    "emotional_sensitivity": "high",
+    "focus_pattern": "burst",
+    "energy_cycle": "morning",
+    "recharge_method": "solitude"
+  },
+  "metadata": {
+    "created_at_utc": "2025-08-03T03:09:00Z",
+    "record_source": "self_reported",
+    "schema_version": "1.2"
+  }
+}

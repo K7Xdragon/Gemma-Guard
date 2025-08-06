@@ -1,0 +1,22 @@
+# Core Streamlit Dependencies
+streamlit>=1.32.0
+streamlit-autorefresh>=0.0.4
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Date/Time Handling
+python-dateutil>=2.8.2
+
+# HTTP Requests for Ollama Integration
+requests>=2.31.0
+
+# JSON/Data Validation
+jsonschema>=4.17.0
+
+# Optional: Advanced ML (only if needed for future features)
+# scikit-learn>=1.3.0
+# openai>=1.0.0           # if using OpenAI instead of Ollama
+# transformers>=4.37.0    # if using HuggingFace models locally
+# torch>=2.0.0            # if running transformer models locally
